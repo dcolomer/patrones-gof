@@ -1,69 +1,54 @@
-📚 Design Patterns Study Repository
+# 📘 Patrones de Diseño - Estudio y Ejemplos en Código
 
-"Design Patterns: Elements of Reusable Object-Oriented Software" (GoF, 1994) es uno de los libros más desafiantes que he estudiado. Durante meses, documenté y programé ejemplos para casi todos los patrones (solo me faltaron 2 o 3). Aquí comparto mi recorrido, con un orden personalizado y notas sobre mi progreso.
-🏗️ Patrones Creacionales
-Patrón	Mi Nº	Notas
-Singleton	1	Primer patrón que implementé.
-Factory*	2,3	Distingo entre Factory y Factory Method.
-Abstract Factory	4	
-Builder	5	
-Prototype	6	
-Object Pool	7	(No es un patrón GoF, pero lo incluí)
-� Patrones Estructurales
-Patrón	Mi Nº
-Adapter	8
-Bridge	9
-Composite	10
-Decorator	11
-Facade	12
-Flyweight	13
-Proxy	14
-🎭 Patrones de Comportamiento
-Patrón	Mi Nº	Notas
-Chain of Responsibility	15	
-Command	16	
-Interpreter	–	No lo traté ❌
-Iterator	18	
-Mediator	19	
-Memento	20	
-Observer	21	
-State	22	
-Strategy	23	
-Template Method	–	No lo traté ❌
-Visitor	–	No lo traté ❌
-📦 Estructura del Repositorio
-A modo de ejemplo:
+Este repositorio contiene mi análisis y ejemplos de implementación de los **Patrones de Diseño** presentados en el libro clásico 📖 *Design Patterns: Elements of Reusable Object-Oriented Software* (1994), también conocido como **"el libro de los GoF"** (*Gang of Four*).
 
-📂 /src  
-├── /creacionales  
-│   ├── singleton.java
-│   ├── factory_method.java  
-│   └── ...  
-├── /estructurales  
-│   ├── adapter.java
-│   └── ...  
-└── /comportamiento  
-    ├── observer.java 
-    └── ...  
+Durante meses de estudio, documenté y programé cada patrón, aunque en un orden diferente al del libro original. Algunos patrones los enfoqué de manera distinta y omití tres de ellos. A continuación, encontrarás la lista completa con el orden en que los traté.
 
-🔧 Cómo Usar
+---
 
-    Clona el repo:
-    
-    git clone https://github.com/dcolomer/patrones-gof.git  
+## 📂 **Índice de Patrones**
 
-    Explora los ejemplos en cada carpeta.
+### 🏗️ **Patrones Creacionales**
+1️⃣ Singleton  
+2️⃣, 3️⃣ Factory Method (Distingo entre Factory y Factory Method)  
+4️⃣ Abstract Factory  
+5️⃣ Builder  
+6️⃣ Prototype  
+7️⃣ Object Pool *(No pertenece a GoF, pero lo incluí)*  
 
-    ¡Contribuciones son bienvenidas! ✨
+### 🏛️ **Patrones Estructurales**
+8️⃣ Adapter  
+9️⃣ Bridge  
+🔟 Composite  
+1️⃣1️⃣ Decorator  
+1️⃣2️⃣ Facade  
+1️⃣3️⃣ Flyweight  
+1️⃣4️⃣ Proxy  
 
-📌 Notas Personales
+### 🔄 **Patrones de Comportamiento**
+1️⃣5️⃣ Chain of Responsibility  
+1️⃣6️⃣ Command  
+1️⃣8️⃣ Iterator  
+1️⃣9️⃣ Mediator  
+2️⃣0️⃣ Memento  
+2️⃣1️⃣ Observer  
+2️⃣2️⃣ State  
+2️⃣3️⃣ Strategy  
 
-    Dificultad: El libro me exigió mucho, pero valió la pena.
+🚫 **Patrones No Tratados:**  
+❌ Interpreter  
+❌ Template Method  
+❌ Visitor  
 
-    Faltantes: Interpreter, Template Method y Visitor quedaron pendientes.
+---
 
-    Orden: No seguí el orden del libro, sino mi propia lógica de aprendizaje.
+## 🚀 **¿Cómo usar este repositorio?**
+Cada patrón tiene su propia carpeta con:
+- 📄 Explicación detallada.
+- 💡 Ejemplo de implementación en código.
+- ✅ Casos de uso y cuándo aplicarlo.
 
-🚀 ¡Espero que este material te sea útil! Si tienes dudas, ¡abre un issue!
+Puedes explorar los patrones directamente en los archivos fuente o clonar el repositorio para ejecutarlos localmente.
 
-🔹 "El conocimiento compartido es el único que crece." — Anónimo
+```bash
+git clone https://github.com/dcolomer/patrones-gof.git
