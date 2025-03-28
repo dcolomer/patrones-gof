@@ -1,0 +1,24 @@
+[28/01/2012 10:57:44.867][TRAZA] [Calculo] : Primer argumento pasado al metodo sumar(): 2147483647
+[28/01/2012 10:57:44.869][TRAZA] [Calculo] : Segundo argumento pasado al metodo sumar(): 2147483647
+[28/01/2012 10:57:44.870][ERROR] [Calculo] : Se ha producido desbordamiento al realizar la suma! Resultado: -2
+[28/01/2012 10:57:44.871][INFO] [Calculo] : Haciendo un cast a long para evitar el desbordamiento...
+[28/01/2012 10:57:44.872][TRAZA] [Calculo] : La suma es: 4294967294
+[28/01/2012 10:57:44.891][TRAZA] [Calculo] : Primer argumento pasado al metodo restar(): 2.0
+[28/01/2012 10:57:44.892][TRAZA] [Calculo] : Segundo argumento pasado al metodo restar(): 1.1
+[28/01/2012 10:57:44.893][DEBUG] [Calculo] : Evitar el uso de float y double donde se requiera precision: 0.8999999999999999
+[04/02/2012 12:51:37.765][TRAZA] [Administrativo] : El responsable admministrativo ha iniciado sesion.
+[04/02/2012 12:51:37.820][TRAZA] [Administrativo] : Adquiriendo el servicio de compras...
+[04/02/2012 12:51:37.838][TRAZA] [Administrativo] : Peticiones de compra realizadas.
+[04/02/2012 12:51:37.839][TRAZA] [Administrativo] : Esperamos 10 segundos y detenemos a los gestores de peticiones.
+[04/02/2012 12:51:47.841][TRAZA] [Administrativo] : Estado de las peticiones de compra realizadas:
+[04/02/2012 12:51:47.842][TRAZA] [Administrativo] : ******************************************************************
+[04/02/2012 12:51:47.845][TRAZA] [Administrativo] : SolicitudCompra [ID=1000, estado=NO_APROBADA, pendienteDe=Sr. Garcia, descripcion=Nuevo almacen BCN, importe=950000.0]
+[04/02/2012 12:51:47.847][TRAZA] [Administrativo] : SolicitudCompra [ID=1001, estado=NO_APROBADA, pendienteDe=Sr. Garcia, descripcion=Ordenadores laboratorio, importe=2500.0]
+[04/02/2012 12:53:56.646][TRAZA] [Administrativo] : El responsable admministrativo ha iniciado sesion.
+[04/02/2012 12:53:56.647][TRAZA] [Administrativo] : Adquiriendo el servicio de compras...
+[04/02/2012 12:53:56.661][TRAZA] [Administrativo] : Peticiones de compra realizadas.
+[04/02/2012 12:53:56.662][TRAZA] [Administrativo] : Esperamos 10 segundos y detenemos a los gestores de peticiones.
+[04/02/2012 12:54:06.663][TRAZA] [Administrativo] : Estado de las peticiones de compra realizadas:
+[04/02/2012 12:54:06.665][TRAZA] [Administrativo] : ******************************************************************
+[04/02/2012 12:54:06.668][TRAZA] [Administrativo] : SolicitudCompra [ID=1000, estado=NO_APROBADA, pendienteDe=Sr. Garcia, descripcion=Nuevo almacen BCN, importe=950000.0]
+[04/02/2012 12:54:06.669][TRAZA] [Administrativo] : SolicitudCompra [ID=1001, estado=NO_APROBADA, pendienteDe=Sr. Garcia, descripcion=Ordenadores laboratorio, importe=2500.0]

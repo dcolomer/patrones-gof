@@ -1,0 +1,7 @@
+Enrique,SoftCut s.a,Barcelona
+Luis,IT Consulting s.a,Madrid
+Carlos,Digit s.l,Zaragoza
+Raquel,Microsoft,Madrid
+David,Oracle Iberica,Madrid
+Vanesa,SoftCut s.a,Barcelona
+Armand,Oracle University, Barcelona
